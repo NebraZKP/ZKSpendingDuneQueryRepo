@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zkspendingdunequeryrepo"
+version = "0.1.0"
+description = ""
+authors = ["Shumo Chu <shumo.chu@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dune-client = "^1.7.4"
+pyyaml = "^6.0.1"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
